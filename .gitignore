@@ -1,0 +1,17 @@
+# Environment / secrets — never commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS
+.DS_Store
+
+# Packaged distributables produced by `npm run zip`
+seb-ledger-core_*.zip

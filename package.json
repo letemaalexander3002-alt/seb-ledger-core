@@ -1,0 +1,32 @@
+{
+  "name": "seb-ledger-core",
+  "version": "1.0.1",
+  "description": "The Pan-East African Informal Sector Economic Ledger — Sovereign Ecosystem Blueprint (SEB). Intellectual Property of Founder Alexander Eliud Letema, Letema Group.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "zip": "node package-zip.js"
+  },
+  "keywords": [
+    "fintech",
+    "east-africa",
+    "informal-sector",
+    "ledger",
+    "supabase",
+    "tanzania"
+  ],
+  "author": "Alexander Eliud Letema — Letema Group (Sovereign Ecosystem Blueprint)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  }
+}
